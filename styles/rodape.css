@@ -6,3 +6,39 @@ hr{
     background: var(--cor-branco);
     padding: 1.5em;
 }
+
+.lista-rodape{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo{
+        font-size: 24px;
+    }
+
+    .lista-rodape{
+        display: block;
+    }
+
+    .lista-rodape__titulo{
+        color: var(--cor-cinza-2);
+        font-size: 14px;
+    }
+
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        margin: .5em 0;
+    }
+
+    .lista-rodape__link{
+        text-decoration: none;
+        color: var(--cor-cinza-1);
+        margin-left: .5em;
+    }
+}
