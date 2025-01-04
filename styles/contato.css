@@ -33,3 +33,20 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media screen and (min-width: 768px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao{
+        width: 400px;
+        margin: 0 1em;
+    }
+
+    .contato__email{
+        width: 30%;
+    }
+}
