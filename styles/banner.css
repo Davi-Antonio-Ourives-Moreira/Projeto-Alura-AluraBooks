@@ -35,3 +35,10 @@
     background: url("../assets/lupa.svg") no-repeat;
     background-position: 0.3em 0.1em;
 }
+
+@media screen and (max-width: 375px) {
+    .banner__pesquisa::placeholder{
+        background-position: -0.3em -.1em;
+        font-size: 14px;
+    }
+}
