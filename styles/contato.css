@@ -50,3 +50,27 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .contato{
+        padding: 3em 10vw 3em 10vw;
+    }
+}
+
+@media screen and (min-width: 1555px) {
+    .contato{
+        padding: 3em 20vw 3em 20vw;
+    }
+}
+
+@media  screen and (min-width: 1944px) {
+    .contato{
+        padding: 3em 30vw 3em 30vw;
+    }
+}
+
+@media screen and (min-width: 2343px) {
+    .contato{
+        padding: 3em 33vw 3em 33vw;
+    }
+}
