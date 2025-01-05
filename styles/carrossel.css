@@ -128,3 +128,17 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .card{
+        width: 600px;
+    }
+
+    .descricao{
+        width: 400px;
+    }
+
+    .swiper{
+        width: 60vw;
+    }
+}
