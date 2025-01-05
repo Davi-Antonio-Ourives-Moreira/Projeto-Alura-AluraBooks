@@ -46,3 +46,21 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .topicos__lista{
+        padding: 0 10vw 0 10vw;
+    }
+}
+
+@media screen and (min-width: 1649px) {
+    .topicos__lista{
+        padding: 0 25vw 0 25vw;
+    }
+}
+
+@media screen and (min-width: 2639px) {
+    .topicos__lista{
+        padding: 0 35vw 0 35vw;
+    }
+}
